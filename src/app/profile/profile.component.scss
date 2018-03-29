@@ -1,0 +1,187 @@
+.profile-wrapper{
+  background-image: url('https://coinswitch.co/public/images/offers_bg.jpg');
+  background-size: 100%;
+  padding: 5px;
+}
+
+.my-details{
+  text-align: left;
+
+  p{
+    text-align: center;
+  }
+
+  border-bottom: solid 1px black;
+
+
+    .col-xs-4{
+       background-color: #fff;
+     }
+
+}
+
+
+.title{
+  font-size: 12px;
+}
+
+.referral-link{
+  background-color: darksalmon;
+  padding: 10px;
+
+  p{
+    font-weight: bold;
+  }
+}
+
+h3{
+  font-size: 18px;
+}
+
+
+.profile{
+
+  margin-top: 25px;
+
+  h3{
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .progress-bar{
+    width: 100px;
+    height: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: solid 1px green;
+    background: none;
+    position: relative;
+    box-sizing: content-box;
+
+    .width{
+      position: absolute;
+      left: 0;
+      display: inline-block;
+      background-color: green;
+      width: 35%;
+      height: 10px;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+  }
+
+}
+
+
+.accordion-toggle{
+  cursor: pointer;
+  border: solid 1px black;
+  padding: 10px;
+
+  h3{
+    font-size: 22px;
+    display: inline-block;
+  }
+
+  //span{
+  //  float: right;
+  //  right: 20px;
+  //}
+}
+
+.main-information{
+  background: #fff;
+  border-radius: 5px;
+
+  padding: 20px;
+
+  .percentage{
+    color: green;
+  }
+
+  form{
+
+    div{
+      margin-top: 20px;
+    }
+
+    .accordion-toggle{
+      h3{
+        float: left;
+      }
+      span{
+        float: right;
+      }
+    }
+
+    label{
+      display: block;
+      text-transform: capitalize;
+    }
+
+    input,select{
+      display: block;
+      width: 100%;
+      border-radius: 5px;
+      padding: 5px;
+      border: solid 1px grey;
+    }
+  }
+
+}
+
+
+@media screen and (min-width: 992px){
+
+  .my-details{
+    p{
+      text-align: left;
+    }
+
+    .col-xs-4{
+      max-width: 28% !important;
+      margin-right: 5%;
+      border: solid 1px black;
+      margin-bottom: 10px;
+    }
+
+
+    border:none;
+
+  }
+
+  .referral-link{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .profile{
+    max-width: 80%;
+    margin: 20px auto;
+  }
+
+
+  .main-information{
+    max-width: 80%;
+    margin: 0 auto;
+    form{
+      text-align: center;
+      label{
+        display: inline-block;
+        margin-right: 20px;
+        direction: rtl;
+      }
+
+      input,select{
+        display:inline;
+        width: 500px;
+      }
+    }
+  }
+
+  .basic-information,.additional-information,.documents{
+    margin: 20px 0;
+  }
+
+}
